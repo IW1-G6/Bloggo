@@ -18,6 +18,18 @@
 				Je suis un texte d'article
 			</p>
 			<span>Je suis une signature</span>
+			
+			<!-- Commentaires des utilisateurs -->
+			<section>
+				<article>
+					<span>
+						Je suis un commentaire.
+					</span>
+					<span>
+						Je suis le signataire du commentaire.
+					</span>
+				</article>
+			</section>
 
 		</article>
 

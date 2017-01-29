@@ -15,7 +15,7 @@
 			<input type="text" name="titre" placeholder="Votre titre" required="required"><br>
 			<input type="textarea" name="texte" placeholder="Votre texte" required="required"><br>
 			<input type="text" name="signature" placeholder="Votre signature" required="required"><br>
-			<input type="submit" name="Envoyer mon Article !">
+			<input type="submit" name="Envoyer mon Article !"> 
 
 		</form>
 

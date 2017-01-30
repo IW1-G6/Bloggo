@@ -1,3 +1,8 @@
+<?php
+
+	include("./pdo.php");
+	
+?>
 <!DOCTYPE html>
 <html>
 <head>

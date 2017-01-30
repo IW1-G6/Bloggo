@@ -10,7 +10,7 @@
 	<article>
 
 		<!-- Le formulaire d'ajout d'article, il faut nécessairement un titre, un texte (paragraphe) et une signature (le nom de l'auteur) -->
-		<form method="POST" action="#">
+		<form method="POST" action="save_article.php">
 
 			<input type="text" name="titre" placeholder="Votre titre" required="required"><br>
 			<input type="textarea" name="texte" placeholder="Votre texte" required="required"><br>

@@ -10,7 +10,7 @@
 		
 		try
 		{
-			$req = $bdd->prepare('	INSERT INTO article
+			$req = $bdd->prepare('	INSERT INTO article(titre, texte, signature, date_article)
 									VALUES (:titre, :texte, :signature, NOW())');
 			$req->execute(array(
 								'titre' => $titre,

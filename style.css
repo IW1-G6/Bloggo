@@ -34,24 +34,44 @@ input
 
 ul
 {
-	/* Safari */
--webkit-transform: rotate(-36deg);
-
-/* Firefox */
--moz-transform: rotate(-36deg);
-
-/* IE */
--ms-transform: rotate(-36deg);
-
-/* Opera */
--o-transform: rotate(-36deg);
-
-/* Internet Explorer */
-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-
-position: relative;
-top: -300px
-
+position: fixed;
+text-align: center;
+top: 280px;
+width: 100%;
+font-size: large;
 
 }
- }
+
+div
+{
+	text-align: center;
+	position: relative; 
+ 	bottom: -350px;
+}
+
+/* lien pas encore visité */
+a:link {
+    color: red;
+}
+
+/* lien une fois visité */
+a:visited {
+    color: black;
+}
+
+/* lien lorsqu'on passe la souris */
+a:hover {
+    color: blue;
+}
+
+/* lien sélectionné */
+a:active {
+    color: blue;
+}
+
+
+
+
+
+
+

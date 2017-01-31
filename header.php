@@ -20,8 +20,8 @@
 		<!-- Le Menu du site ( en haut et horizontal) présent sur toutes les pages -->
 		<nav>
 			<ul>
-				<li><a href="index.php">Accueil</a>
-				<li><a href="addarticle.php">Ajouter un article</a>
+				<a href="index.php">Accueil</a>
+				<a href="addarticle.php">Ajouter un article</a>
 			</ul>
 		</nav>
 	</header>

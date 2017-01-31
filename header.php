@@ -9,6 +9,7 @@
 	<meta charset="utf-8">
 	<title>Bloggo</title>
 	<meta name="description" content="Un blog pas comme les autres">
+	<link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
 	<header>

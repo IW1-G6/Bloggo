@@ -3,7 +3,8 @@ body
 
 	width: 100%;
     height: 400px;
-    background-image: url('img_fond.jpg');
+    background: url('img_fond.jpg') repeat center fixed;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover;
     
 

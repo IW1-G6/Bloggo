@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 
 	include "header.php";
 
@@ -17,17 +17,17 @@
 								'texte' => $texte,
 								'signature' => $signature
 			));		
-			echo "Votre article a été sauvegardé dans la base de données.";
+			echo "Votre article a Ã©tÃ© sauvegardÃ© dans la base de donnÃ©es.";
 		}
 		catch(Exception $e)
 		{
-			// En cas d'erreur, on affiche un message et on arrête tout
+			// En cas d'erreur, on affiche un message et on arrÃªte tout
 			die('Erreur : '.$e->getMessage());
 		}
 		
 	}else{
 		
-		echo "Données incorrectes";
+		echo "DonnÃ©es incorrectes";
 		
 	}
 

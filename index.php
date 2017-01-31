@@ -18,7 +18,9 @@
 		<!-- Article avec un titre, un texte (paragraphe) et une signature (nom de l'auteur) -->
 		<article>
 
-			<h4><a href="article.php?id=<?php $article['id']; ?>" ><?php echo $article['titre'] ; ?></a></h4>
+			<?php
+				echo "<h4><a href=\"article.php?id=".$article['id']."\" >".$article['titre']."</a></h4>";
+			?>
 			<p>
 				<?php echo $article['texte'] ; ?>
 			</p>
